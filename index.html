@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- 
+    - primary meta tags
+  -->
+  <title>BLOOD-24/7</title>
+  <meta name="title" content="BLOOD-24/7">
+  <meta name="description" content="This is a food html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" href="lsvg.svg"type="image/x-icon">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="loading-container" data-loading-container>
+    <div class="loading-circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="svg-edited.svg" width="80" height="80" alt="Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="lsvg.svg" width="148" height="38" alt="Blood">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Banks</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contacts</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Login</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-action">
+        
+          <!--<ion-icon name="bag" aria-hidden="true"></ion-icon>
+        </button>-->
+
+        <a href="#" class="btn btn-primary has-after">DONATE</a>
+      </div>
+
+      <div class="header-action">
+        
+          <ion-icon name="bag" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="btn btn-primary has-after">AQUIRE</a>
+      </div>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+    
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content" data-reveal="left">
+            <h1 class="h1 hero-title">BLOOD BANK 24/7</h1>
+
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
+
+            <a href="#" class="btn btn-success has-after">Donate Now</a>
+            <br>
+            <a href="#" class="btn btn-success has-after">Aquire Now</a>
+          </div>
+
+          <figure class="hero-banner" data-reveal>
+            
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+              <div class="carousel-item active">
+              <img class="w-100" src="bb3.jpg" alt="First Car" >
+              </div>
+              <div class="carousel-item">
+              <img class="w-100" src="blood banner 2.jpg" alt="Second Car">
+              </div>
+              <div class="carousel-item">
+              <img class="w-100" src="bb4.jpg" alt="Third Car">
+              </div>
+              </div>
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSTRUCTION
+      -->
+
+      <section class="section instruction" aria-labelledby="">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="instruction-label" data-reveal>How It Works-Donating</h2>
+
+          <p class="section-text" data-reveal>
+            Magna sit amet purus gravida quis blandit turpis cursus. Venenatis tellus in
+            metus vulputate eu scelerisque felis.
+          </p>
+
+          <ul class="grid-list">
+
+            <li data-reveal="left">
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="bgs.jpg" width="300" height="154" loading="lazy"
+                    alt="Select Restaurant" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    Enter Blood Group
+                  </h3>
+
+                  <p class="card-text">
+                    Non enim praesent elementum facilisis leo vel fringilla. Lectus proin nibh nisl condimentum id. Quis
+                    varius quam quisque id diam vel.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="bc2.jpg" width="300" height="154" loading="lazy"
+                    alt="Select menu" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    Select Hospital
+                  </h3>
+
+                  <p class="card-text">
+                    Eu mi bibendum neque egestas congue quisque. Nulla facilisi morbi tempus iaculis urna id volutpat
+                    lacus. Odio ut sem nulla pharetra diam sit amet.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="right">
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="bp.jpg" width="300" height="154" loading="lazy"
+                    alt="Wait for delivery" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    Wait for Pickup
+                  </h3>
+
+                  <p class="card-text">
+                    Nunc lobortis mattis aliquam faucibus. Nibh ipsum consequat nisl vel pretium lectus quam id leo. A
+                    scelerisque purus semper eget. Tincidunt arcu non.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <section class="section instruction" aria-labelledby="">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="instruction-label" data-reveal>How It Works-Aquiring</h2>
+
+          <p class="section-text" data-reveal>
+            Magna sit amet purus gravida quis blandit turpis cursus. Venenatis tellus in
+            metus vulputate eu scelerisque felis.
+          </p>
+
+          <ul class="grid-list">
+
+            <li data-reveal="left">
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="bgs.jpg" width="300" height="154" loading="lazy"
+                    alt="Select Restaurant" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+            
+                    Enter Blood Group
+                  </h3>
+
+                  <p class="card-text">
+                    Non enim praesent elementum facilisis leo vel fringilla. Lectus proin nibh nisl condimentum id. Quis
+                    varius quam quisque id diam vel.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="dt.jpg" width="300" height="154" loading="lazy"
+                    alt="Select menu" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    Enter Details
+                  </h3>
+
+                  <p class="card-text">
+                    Eu mi bibendum neque egestas congue quisque. Nulla facilisi morbi tempus iaculis urna id volutpat
+                    lacus. Odio ut sem nulla pharetra diam sit amet.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="right">
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="bd.jpg" width="300" height="154" loading="lazy"
+                    alt="Wait for delivery" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    Wait for delivery
+                  </h3>
+
+                  <p class="card-text">
+                    Nunc lobortis mattis aliquam faucibus. Nibh ipsum consequat nisl vel pretium lectus quam id leo. A
+                    scelerisque purus semper eget. Tincidunt arcu non.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="section footer-top grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="blg.svg" width="148" height="148" alt="fasteat home">
+          </a>
+
+          <h2 class="h2 section-title">The Best Blood Banks Near you!</h2>
+
+          <p class="section-text">
+            Vitae congue mauris rhoncus aenean. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere.
+            Tempus egestas sed sed risus pretium quam.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title h5">LIST</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Home</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">About Us</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Blood Banks</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Contacts</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title h5">Contacts</p>
+          </li>
+          <li>
+            <address class="address">
+              <ion-icon name="person" aria-hidden="true"></ion-icon>
+
+              <span class="span">Naveen Kumar,NSS Coordinator</span>
+            </address>
+          </li>
+
+          <li>
+            <address class="address">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+              <span class="span">Tpt main road,sona college of technology</span>
+            </address>
+          </li>
+
+          <li>
+            <a href="mailto:quickeat@mail.net" class="footer-link">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+              <span class="span">sonasct@mail.net</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="tel:+12344567890" class="footer-link">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <span class="span">+1 234 456 78 90</span>
+            </a>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright 2024. All rights reserved.
+        </p>
+        <p class="copyright">
+          Done By Tamilarasan
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
